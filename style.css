@@ -1,0 +1,100 @@
+
+body {
+    margin: 0;
+    font-family: "Nunito Sans", sans-serif;
+    line-height: 1.6;
+    background-color: DarkSalmon;
+    color: black;
+  }
+
+h1, h2 {
+  font-family: 'Bitter', serif;
+  margin-top: 0;
+  }
+
+/* ---------- Hero Section ---------- */
+.hero {
+  height: 100vh;
+  background: linear-gradient(rgba(233, 150, 122, 0.2), rgba(0, 0, 0, 0.1)),
+    url("https://plus.unsplash.com/premium_photo-1673306778968-5aab577a7365?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D")
+      center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+}
+
+.hero .overlay {
+  padding: 2rem;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  letter-spacing: 1px;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+/* ---------- Gradient Section ---------- */
+.gradient-section {
+  background: linear-gradient(to bottom, #e9cd79, #E9967A);
+  color: white;
+  text-align: center;
+  padding: 4rem 1rem;
+}
+
+.gradient-section h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.gradient-section p {
+  max-width: 650px;
+  margin: 0 auto;
+  font-size: 1.1rem;
+}
+
+/* ---------- Solid Color Section ---------- */
+.solid-section {
+  background-color: #E9967A;
+  color: white;
+  text-align: center;
+  padding: 4rem 1rem;
+}
+
+.solid-section h2 {
+  color: white;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.solid-section p {
+  max-width: 650px;
+  margin: 0 auto;
+  font-size: 1.1rem;
+}
+
+/* Footer */
+footer {
+  margin-top: 3rem;
+  text-align: center;
+  font-size: .9rem;
+  background-color: #e97995;
+  color: white;
+  }
+
+/* Responsive Layout - tablet */
+@media (min-width: 768px) {
+
+  .hero h1 {
+    font-size: 3rem;
+  }
+  .gradient-section,
+  .solid-section {
+    padding: 6rem 2rem;
+  }
+}
